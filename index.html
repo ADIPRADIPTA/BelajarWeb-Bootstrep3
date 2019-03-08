@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>MY PORFOLIO</title>
+    <title>MY PORTFOLIO</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -14,11 +14,11 @@
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <!-- navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -93,34 +93,75 @@
 
                 <div class="row">
                     <div class="col-sm-4">
-                        <a href="" class="thumbnail">
-                            <img src="img/portfolio/1.JPG">
+                        <a href="#gambar-1" class="thumbnail">
+                            <img src="img/portfolio/1.JPG" >
                         </a>
+                        <!-- Overlay Lightbox-->
+                        <div class="overlay" id="gambar-1">
+                            <a href="" class="close">x close</a>
+                            <img src="img/full/1.JPG" alt="">
+                        </div>
+                        <!-- Finish Overlay Lightbox-->
                     </div>
+
                     <div class="col-sm-4">
-                        <a href="" class="thumbnail">
+                        <a href="#gambar-2" class="thumbnail">
                             <img src="img/portfolio/2.JPG">
                         </a>
+                        <!-- Overlay Lightbox-->
+                        <div class="overlay" id="gambar-2">
+                            <a href="" class="close">x close</a>
+                            <img src="img/full/2.jpg" alt="">
+                        </div>
+                        <!-- Finish Overlay Lightbox-->
                     </div>
+                    
                     <div class="col-sm-4">
-                        <a href="" class="thumbnail">
+                        <a href="#gambar-3" class="thumbnail">
                             <img src="img/portfolio/3.JPG">
                         </a>
+                        <!-- Overlay Lightbox-->
+                        <div class="overlay" id="gambar-3">
+                            <a href="" class="close">x close</a>
+                            <img src="img/full/3.JPG" alt="">
+                        </div>
+                        <!-- Finish Overlay Lightbox-->
                     </div>
+                    
                     <div class="col-sm-4">
-                        <a href="" class="thumbnail">
+                        <a href="#gambar-4" class="thumbnail">
                             <img src="img/portfolio/4.JPG">
                         </a>
+                        <!-- Overlay Lightbox-->
+                        <div class="overlay" id="gambar-4">
+                            <a href="" class="close">x close</a>
+                            <img src="img/full/4.JPG" alt="">
+                        </div>
+                        <!-- Finish Overlay Lightbox-->
                     </div>
+                    
                     <div class="col-sm-4">
-                        <a href="" class="thumbnail">
+                        <a href="#gambar-5" class="thumbnail">
                             <img src="img/portfolio/5.JPG">
                         </a>
+                        <!-- Overlay Lightbox-->
+                        <div class="overlay" id="gambar-5">
+                            <a href="" class="close">x close</a>
+                            <img src="img/full/5.JPG" alt="">
+                        </div>
+                        <!-- Finish Overlay Lightbox-->
                     </div>
+                    
                     <div class="col-sm-4">
-                        <a href="" class="thumbnail">
+                        <a href="#gambar-6" class="thumbnail">
                             <img src="img/portfolio/6.JPG">
                         </a>
+                        <!-- Overlay Lightbox-->
+                        <div class="overlay" id="gambar-6">
+                            <a href="" class="close">x close</a>
+                            <img src="img/full/6.JPG" alt="">
+                        </div>
+                        <!-- Finish Overlay Lightbox-->
                     </div>
                 </div>
 
@@ -197,6 +238,7 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    
 
     <script src="js/script.js"></script>
   </body>
